@@ -1,0 +1,7 @@
+D:\Google Drive\Projects\CSharp\Razer\DAL\bin\Debug\DAL.dll
+D:\Google Drive\Projects\CSharp\Razer\DAL\bin\Debug\DAL.pdb
+D:\Google Drive\Projects\CSharp\Razer\DAL\bin\Debug\Entity.dll
+D:\Google Drive\Projects\CSharp\Razer\DAL\bin\Debug\Entity.pdb
+D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.dll
+D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.pdb

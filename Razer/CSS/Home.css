@@ -1,0 +1,165 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.header-menu {
+    background-color: #f2f2f2;
+    width: 100%;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.header-menu-item-container {
+    float: left;
+}
+
+    .header-menu-item-container .header-menu-item {
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .user-menu-item .header-menu-item {
+        font-weight: bold;
+        cursor: pointer;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+        .header-menu-item-container .header-menu-item:hover {
+            background-color: #ff007d;
+            opacity: 0.6;
+            color: white;
+        }
+
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding-top: 48px;
+    padding-bottom: 50px;
+    text-overflow: clip;
+    font-family: "Nunito";
+}
+
+#track-info-cell {
+    overflow: hidden;
+    padding: 1px 20px 1px 5px;
+}
+
+#track-avatar-cell {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    padding: 0px 2px 0px 20px;
+}
+
+.track-avatar-image {
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+
+.track-info-text {
+    overflow: hidden;
+    max-height: 20px;
+}
+
+#track-info-artist {
+    font-weight: bold;
+}
+
+#audio-controls-cell {
+    width: 217px;
+}
+
+#user-functions-cell {
+    width: 130px;
+    float: right;
+}
+
+#mediaControlZone {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    table-layout: fixed;
+    min-height: 44px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.media-button {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+}
+
+    .media-button:hover {
+        color: orange;
+    }
+
+#header {
+    background-color: deeppink;
+    height: 45px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.control-padding {
+    height: 100%;
+    width: 10%;
+}
+
+@media screen and (max-width: 850px) {
+    .control-padding {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #track-info-cell {
+        display: none;
+    }
+
+    #track-avatar-cell {
+        display: none;
+    }
+}
+
+#PlaylistView {
+    padding-left: 30%;
+    padding-right: 10%;
+    display: block;
+    width: 60%;
+    position: fixed;
+    bottom: 44px;
+    display: none;
+}
+
+#MainContent {
+    margin: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 850px) {
+
+    #MainContent {
+        width: 100%;
+    }
+}

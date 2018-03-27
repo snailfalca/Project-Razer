@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C76B5052-C8EF-425F-883E-FD15C72149B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Razer</RootNamespace>
+    <AssemblyName>Razer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccountAction.aspx" />
+    <Content Include="AccountInfo.aspx" />
+    <Content Include="AddToPlayListModal.aspx" />
+    <Content Include="Admin_Artists.aspx" />
+    <Content Include="Admin_AddSong.aspx" />
+    <Content Include="ArtistDetails.aspx" />
+    <Content Include="Artists.aspx" />
+    <Content Include="CreateAccount.aspx" />
+    <Content Include="CSS\Artists.css" />
+    <Content Include="CSS\Home.css" />
+    <Content Include="EditPlaylistHandler.aspx" />
+    <Content Include="HomeContent.aspx" />
+    <Content Include="Admin_Home.aspx" />
+    <Content Include="PlayingSongInfo.aspx" />
+    <Content Include="PlaylistAction.aspx" />
+    <Content Include="SongAction.aspx" />
+    <Content Include="SongRequestHandler.aspx" />
+    <Content Include="Songs.aspx" />
+    <Content Include="SongStream.aspx" />
+    <Content Include="Trash\Home.aspx" />
+    <Content Include="HomeV2.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PlayerPlaylist.aspx" />
+    <Content Include="Trash\PlaylistView.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountAction.aspx.cs">
+      <DependentUpon>AccountAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountAction.aspx.designer.cs">
+      <DependentUpon>AccountAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccountInfo.aspx.cs">
+      <DependentUpon>AccountInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccountInfo.aspx.designer.cs">
+      <DependentUpon>AccountInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddToPlayListModal.aspx.cs">
+      <DependentUpon>AddToPlayListModal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToPlayListModal.aspx.designer.cs">
+      <DependentUpon>AddToPlayListModal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Artists.aspx.cs">
+      <DependentUpon>Admin_Artists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Artists.aspx.designer.cs">
+      <DependentUpon>Admin_Artists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_AddSong.aspx.cs">
+      <DependentUpon>Admin_AddSong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_AddSong.aspx.designer.cs">
+      <DependentUpon>Admin_AddSong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtistDetails.aspx.cs">
+      <DependentUpon>ArtistDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ArtistDetails.aspx.designer.cs">
+      <DependentUpon>ArtistDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Artists.aspx.cs">
+      <DependentUpon>Artists.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Artists.aspx.designer.cs">
+      <DependentUpon>Artists.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.aspx.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.aspx.designer.cs">
+      <DependentUpon>CreateAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditPlaylistHandler.aspx.cs">
+      <DependentUpon>EditPlaylistHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditPlaylistHandler.aspx.designer.cs">
+      <DependentUpon>EditPlaylistHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeContent.aspx.cs">
+      <DependentUpon>HomeContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeContent.aspx.designer.cs">
+      <DependentUpon>HomeContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Home.aspx.cs">
+      <DependentUpon>Admin_Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Home.aspx.designer.cs">
+      <DependentUpon>Admin_Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayingSongInfo.aspx.cs">
+      <DependentUpon>PlayingSongInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayingSongInfo.aspx.designer.cs">
+      <DependentUpon>PlayingSongInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistAction.aspx.cs">
+      <DependentUpon>PlaylistAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlaylistAction.aspx.designer.cs">
+      <DependentUpon>PlaylistAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlaylistHandler.cs" />
+    <Compile Include="SongAction.aspx.cs">
+      <DependentUpon>SongAction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SongAction.aspx.designer.cs">
+      <DependentUpon>SongAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SongRequestHandler.aspx.cs">
+      <DependentUpon>SongRequestHandler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SongRequestHandler.aspx.designer.cs">
+      <DependentUpon>SongRequestHandler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Songs.aspx.cs">
+      <DependentUpon>Songs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Songs.aspx.designer.cs">
+      <DependentUpon>Songs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SongStream.aspx.cs">
+      <DependentUpon>SongStream.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SongStream.aspx.designer.cs">
+      <DependentUpon>SongStream.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trash\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trash\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeV2.aspx.cs">
+      <DependentUpon>HomeV2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeV2.aspx.designer.cs">
+      <DependentUpon>HomeV2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerPlaylist.aspx.cs">
+      <DependentUpon>PlayerPlaylist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlayerPlaylist.aspx.designer.cs">
+      <DependentUpon>PlayerPlaylist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trash\PlaylistView.aspx.cs">
+      <DependentUpon>PlaylistView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trash\PlaylistView.aspx.designer.cs">
+      <DependentUpon>PlaylistView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{23f29cc3-736d-41ed-af88-2500b5fe59e0}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{db65aaa7-0a17-4fb1-a709-6e3281a80e9a}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14896</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14896/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

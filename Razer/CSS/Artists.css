@@ -1,0 +1,77 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+#ArtistsContent {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cover-image {
+    width: 80px;
+    height: 80px;
+}
+
+#ArtistsGridView th {
+    padding: 0px;
+    text-align: center;
+}
+
+#ArtistsGridView td {
+    padding: 0px;
+    width: 0px;
+}
+
+.gallery-item {
+    text-decoration: none;
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    max-width: 19%;
+}
+
+    .gallery-item:hover {
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #000;
+    }
+
+        .gallery-item:hover .desc {
+            color: black;
+        }
+
+    .gallery-item img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+.desc {
+    text-align: center;
+    overflow: hidden;
+    color: gray;
+    padding-top: 5px;
+    margin: auto;
+    width: 90%;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1250px) {
+    .gallery-item {
+        max-width: 24%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .gallery-item {
+        max-width: 49%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gallery-item {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,5 @@
+D:\Google Drive\Projects\CSharp\Razer\Entity\bin\Debug\Entity.dll
+D:\Google Drive\Projects\CSharp\Razer\Entity\bin\Debug\Entity.pdb
+D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.dll
+D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.pdb
+D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
