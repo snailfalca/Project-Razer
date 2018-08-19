@@ -1,0 +1,9 @@
+D:\GitHub\Project-Razer\DAL\bin\Release\DAL.dll
+D:\GitHub\Project-Razer\DAL\bin\Release\DAL.pdb
+D:\GitHub\Project-Razer\DAL\bin\Release\Entity.dll
+D:\GitHub\Project-Razer\DAL\bin\Release\Entity.pdb
+D:\GitHub\Project-Razer\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\GitHub\Project-Razer\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\GitHub\Project-Razer\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\GitHub\Project-Razer\DAL\obj\Release\DAL.dll
+D:\GitHub\Project-Razer\DAL\obj\Release\DAL.pdb

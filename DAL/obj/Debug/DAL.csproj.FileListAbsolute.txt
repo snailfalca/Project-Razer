@@ -5,3 +5,12 @@ D:\Google Drive\Projects\CSharp\Razer\DAL\bin\Debug\Entity.pdb
 D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.dll
 D:\Google Drive\Projects\CSharp\Razer\DAL\obj\Debug\DAL.pdb
+D:\GitHub\Project-Razer\DAL\bin\Debug\DAL.dll
+D:\GitHub\Project-Razer\DAL\bin\Debug\DAL.pdb
+D:\GitHub\Project-Razer\DAL\bin\Debug\Entity.dll
+D:\GitHub\Project-Razer\DAL\bin\Debug\Entity.pdb
+D:\GitHub\Project-Razer\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\GitHub\Project-Razer\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\GitHub\Project-Razer\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\GitHub\Project-Razer\DAL\obj\Debug\DAL.dll
+D:\GitHub\Project-Razer\DAL\obj\Debug\DAL.pdb

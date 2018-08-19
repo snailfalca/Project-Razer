@@ -202,7 +202,7 @@ namespace DAL
             try
             {
                 int InsertedID = -1;
-                string query = "INSERT INTO PlaylistTBL OUTPUT Inserted.PlaylistID VALUES (@Title, @UserID, @Private)";
+                string query = "INSERT INTO PlaylistTBL OUTPUT Inserted.PlaylistID VALUES (@Private, @Title, @UserID)";
 
                 SqlCommand command = new SqlCommand(query, connection);
 

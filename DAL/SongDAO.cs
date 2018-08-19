@@ -247,7 +247,7 @@ namespace DAL
             try
             {
                 int InsertedID = -1;
-                string query = "INSERT INTO SongTBL OUTPUT Inserted.SongID VALUES (@Title, @FilePath, @ArtistID)";
+                string query = "INSERT INTO SongTBL OUTPUT Inserted.SongID VALUES (@ArtistID, @Title, @FilePath)";
 
                 SqlCommand command = new SqlCommand(query, connection);
 

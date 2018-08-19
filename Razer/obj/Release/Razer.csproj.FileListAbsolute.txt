@@ -1,0 +1,12 @@
+D:\GitHub\Project-Razer\Razer\bin\Razer.dll.config
+D:\GitHub\Project-Razer\Razer\bin\Razer.dll
+D:\GitHub\Project-Razer\Razer\bin\Razer.pdb
+D:\GitHub\Project-Razer\Razer\bin\DAL.dll
+D:\GitHub\Project-Razer\Razer\bin\Entity.dll
+D:\GitHub\Project-Razer\Razer\bin\DAL.pdb
+D:\GitHub\Project-Razer\Razer\bin\Entity.pdb
+D:\GitHub\Project-Razer\Razer\obj\Release\Razer.csprojAssemblyReference.cache
+D:\GitHub\Project-Razer\Razer\obj\Release\Razer.csproj.CoreCompileInputs.cache
+D:\GitHub\Project-Razer\Razer\obj\Release\Razer.csproj.CopyComplete
+D:\GitHub\Project-Razer\Razer\obj\Release\Razer.dll
+D:\GitHub\Project-Razer\Razer\obj\Release\Razer.pdb

@@ -3,3 +3,9 @@ D:\Google Drive\Projects\CSharp\Razer\Entity\bin\Debug\Entity.pdb
 D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.dll
 D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.pdb
 D:\Google Drive\Projects\CSharp\Razer\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\GitHub\Project-Razer\Entity\bin\Debug\Entity.dll
+D:\GitHub\Project-Razer\Entity\bin\Debug\Entity.pdb
+D:\GitHub\Project-Razer\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+D:\GitHub\Project-Razer\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\GitHub\Project-Razer\Entity\obj\Debug\Entity.dll
+D:\GitHub\Project-Razer\Entity\obj\Debug\Entity.pdb

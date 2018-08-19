@@ -1,0 +1,6 @@
+D:\GitHub\Project-Razer\Entity\bin\Release\Entity.dll
+D:\GitHub\Project-Razer\Entity\bin\Release\Entity.pdb
+D:\GitHub\Project-Razer\Entity\obj\Release\Entity.csprojAssemblyReference.cache
+D:\GitHub\Project-Razer\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+D:\GitHub\Project-Razer\Entity\obj\Release\Entity.dll
+D:\GitHub\Project-Razer\Entity\obj\Release\Entity.pdb

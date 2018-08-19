@@ -92,7 +92,7 @@
             </div>
             <div>
                 <p>DOB</p>
-                <asp:Calendar ID="CalendarDOB" runat="server"></asp:Calendar>
+                <asp:Calendar ID="CalendarDOB" runat="server" SelectedDate="<%# DateTime.Today %>"></asp:Calendar>
             </div>
             <div>
                 <p>Gender</p>
